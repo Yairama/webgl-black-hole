@@ -45,6 +45,7 @@ export default class Stars
             sizeArray[i] = Math.random()
 
             const color = new THREE.Color(`hsl(${Math.round(360 * Math.random())}, 100%, 80%)`)
+
             colorArray[iStride3 + 0] = color.r
             colorArray[iStride3 + 1] = color.g
             colorArray[iStride3 + 2] = color.b

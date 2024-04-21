@@ -16,8 +16,8 @@ function BlackHoleDiscMaterial()
         {
             uTime: { value: 0 },
             uNoiseTexture: { value: null },
-            uInnerColor: { value: new THREE.Color('#ff8080') },
-            uOuterColor: { value: new THREE.Color('#3633ff') }
+            uInnerColor: { value: new THREE.Color('#ffd192') },
+            uOuterColor: { value: new THREE.Color('#e89360') }
         },
         vertexShader: vertexShader,
         fragmentShader: fragmentShader

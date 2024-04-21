@@ -14,8 +14,8 @@ function BlackHoleParticlesMaterial()
         uniforms:
         {
             uTime: { value: 0 },
-            uInnerColor: { value: new THREE.Color('#ff8080') },
-            uOuterColor: { value: new THREE.Color('#3633ff') },
+            uInnerColor: { value: new THREE.Color('#ffd192') },
+            uOuterColor: { value: new THREE.Color('#e89360') },
             uViewHeight: { value: 1024 },
             uSize: { value: 0.015 },
         },
